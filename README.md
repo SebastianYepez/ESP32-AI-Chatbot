@@ -13,6 +13,8 @@ Also, the ESP-32 is limited to 2.4 GHz WiFi. This can be a nuisance in today's a
 
 I've only tested this program on ESP32 board versions 2.0.16 and 2.0.17. I believe the code does not work on versions newer than this because of a difference in WiFi capabilities. Changing the version of your ESP32 board is very easy to do through Arduino, however. More information to install the ESP32 board can be found [here](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html).
 
+Finally, if you would like to add images to the HTML file, please ensure that these images can be accessed through a hyperlink. Otherwise, you'd have to find a way to work with SPIFFS or LittleFS, which is a huge hassle and may not be possible on versions of Arduino past 1.9.
+
 ## Usage
 To use this program, simply download the "MASTER_MYGPT" folder. In the .ino file, a couple changes must be made:
  1. Input your WiFi credentials
