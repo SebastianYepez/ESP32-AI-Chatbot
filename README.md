@@ -1,7 +1,7 @@
 # ESP32-AI-Chatbot
 
 ## Description
-I was tasked with developing an AI Chatbot powered by an ESP-32 Microprocessor for my VSL 2024 project. You can find the students' finalized project [here](https://github.com/SebastianYepez/Vegas-STEM-Lab-2024). Please feel free to utilize this code for any of your own potential projects!
+I was tasked with developing an AI Chatbot powered by an ESP32 Microprocessor for my VSL 2024 project. You can find the students' finalized project [here](https://github.com/SebastianYepez/Vegas-STEM-Lab-2024). Please feel free to utilize this code for any of your own potential projects!
 
 ## Functionality
 This .ino program works by initiating a websocket powered by the ESP32, taking the user's input from the input textbox, utilizing ChatGPT 3.5 Turbo through OpenAI's API, and returning the result back to the websocket.
@@ -9,7 +9,7 @@ This .ino program works by initiating a websocket powered by the ESP32, taking t
 ## Limitations
 Because of the usage of the API, each request is independent. This means that the bot is not capable of being contextually aware in relation to previous messages as ChatGPT would be.
 
-Also, the ESP-32 is limited to 2.4 GHz WiFi. This can be a nuisance in today's age where 5 GHz is quickly becoming mainstream.
+Also, the ESP32 is limited to 2.4 GHz WiFi. This can be a nuisance in today's age where 5 GHz is quickly becoming mainstream.
 
 I've only tested this program on ESP32 board versions 2.0.16 and 2.0.17. I believe the code does not work on versions newer than this because of a difference in WiFi capabilities. Changing the version of your ESP32 board is very easy to do through Arduino, however. More information to install the ESP32 board can be found [here](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html).
 
